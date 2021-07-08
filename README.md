@@ -17,3 +17,7 @@ It will (soon) be automated to use GitHub Actions and GitHub Pages
 ### automation
 
 Once I figure it out, a GitHub Action will move the `index.html` file to the `/pages` branch, to be served by GitHub Pages
+
+### disclaimer
+
+Yes, I know that using Jinja Macros is awful and I could do this way better, but I do not care.
