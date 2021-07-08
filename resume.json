@@ -1,0 +1,113 @@
+{
+    "meta": {
+      "theme": "flat"
+    },
+    "basics": {
+      "name": "Ash ~ Curriculum Vitae",
+      "label": "Multidisciplinary aspiring developer",
+      "picture": "",
+      "email": "me@ash.pm",
+      "website": "https://ash.pm",
+      "location": {
+        "city": "London",
+        "countryCode": "GB"
+      }
+    },
+    "work": [{
+      "company": "Royal Holloway Students Union",
+      "position": "Tech and Events Supervisor",
+      "website": "https://www.su.rhul.ac.uk/",
+      "startDate": "2019-10-01",
+      "summary": "Maintaining and operating the sound and lighting equipment at the Royal Holloway SU, across the two nightclub venues.",
+      "highlights": [
+        "Experience and proficiency with Chamsys, JANDS Vista, Avolites, and ETC Nomad Lighting Control Software",
+        "Ensuring the equipment and 1000+ capacity venues are following health and safety requirements and venue regulation"
+      ]
+    }],
+    "volunteer": [{
+      "organization": "Royal Holloway Computing Society",
+      "position": "President",
+      "website": "http://cmpsc.uk/",
+      "startDate": "2020-07-01",
+      "summary": "Volunteering to help organise and run events safely, especially with COVID-19 compliance, at Royal Holloway, for the Computing Society.",
+      "highlights": [
+        "Organising Royal Hackaway"
+      ]
+    },
+    {
+      "organization": "Discord Moderator Academy",
+      "position": "Community Editor",
+      "website": "http://dis.gd/dma",
+      "startDate": "2020-08-05",
+      "endDate": "2021-06-01",
+      "summary": "Worked with Discord staff and over 20 contributors to proofread community-written articles for DMA, a resource for volunteer community moderators",
+      "highlights": [
+        "Organised a large team across the full range of timezones",
+        "Liaised between staff and volnunteers",
+        "Helped to keep articles to a consistent style and tone guide"
+      ]
+    },
+    {
+      "organization": "Discord",
+      "position": "Volunteer Community Moderator",
+      "website": "http://discord.com/",
+      "startDate": "2018-09-12",
+      "endDate": "2021-06-01",
+      "summary": "Worked with various employee teams at Discord to help moderate their official communities and platforms.",
+      "highlights": [
+        "Moderated the community subreddit",
+        "Helped moderate pop-up event servers for charity drives, often reaching 10s of thousands of users within hours",
+        "Worked with a wide variety of brands and online influencers to build and grow their Discord communities, and develop specialised tooling"
+      ]
+    }],
+    "education": [{
+      "institution": "Royal Holloway University of London",
+      "area": "Physics",
+      "studyType": "Bachelor [First]",
+      "startDate": "2019-09-20",
+      "endDate": "2022-06-30"
+    }],
+    "awards": [{
+      "title": "Harvard CS50",
+      "date": "2020-07-16",
+      "awarder": "Harvard Univeristy",
+      "summary": "Completed the CS50x, with 9 problem sets and 1 final task at cs50.harvard.edu"
+    }],
+    "skills": [
+     {
+      "name": "Software and Technical",
+      "keywords": [
+        "General proficiency with a range of systems and software",
+        "Experience in web hosting on Linux, and using AWS services",
+        "7+ years of experience in Python",
+        "Additionally proficient in SQL, LaTeX, C, and Python scientific modules"
+      ]
+     },
+     {
+      "name": "Web Development",
+      "keywords": [
+        "Python using Flask/Django Backend",
+        "JS using React.js",
+        "CI/CD with GitHub"
+      ]
+    },
+    {
+      "name": "Community Moderation",
+      "keywords": [
+        "4+ years moderating online communities",
+        "Experience with a range of platforms and communities"
+      ]
+    },
+    {
+      "name": "Technical Theatre",
+      "keywords": [
+        "Experience in theatre and music venues",
+        "Hands-on experience with rigging, maintainance, and production",
+        "Proficient with a range of lighting and sound control systems"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }]
+  }

@@ -1,0 +1,113 @@
+{% macro basics() -%}
+<span class="basics">
+  <h1>about me</h1>
+  <p>
+    <ul>
+      <li>alias: Ash</li>
+      <li>email: me@ash.pm</li>
+      <li>website: ash.pm</li>
+      <li>location: London, GB</li>
+    </ul>
+  </p>
+</span>
+{%- endmacro -%}
+
+{% macro work(str) -%}
+<span class="work">
+  {{str}}
+  <h1>employment</h1>
+  <h2>Royal Holloway Student's Union</h2>
+  <h3>2020-07-01 - present</h3>
+  <p>
+    <ul class="details">
+      <li>position: Tech and Events Supervisor</li>
+      <li>website: su.rhul.ac.uk</li>
+    </ul>
+    <ul class="text">
+      <li>Maintaining and operating the sound and lighting equipment at the Royal Holloway SU, across the two nightclub venues.</li>
+      <li>Experience and proficiency with Chamsys, JANDS Vista, Avolites, and ETC Nomad Lighting Control Software</li>
+      <li>Ensuring the equipment and 1000+ capacity venues are following health and safety requirements and venue regulation</li>
+    </ul>
+  </p>
+</span>
+{%- endmacro -%}
+
+<!DOCTYPE html>
+<style>
+  body {
+    background: #272727;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding: 2em;
+  }
+  .title {
+    margin-top: 1em;
+    padding: 0.1em;
+    font-size: xx-large;
+    font-weight: 900;
+  }
+  .title > .emphasis {
+    background-color: #B10F2E;
+    padding: 0.1em
+  }
+  
+  h1 {
+    font-size: x-large;
+    color: #4EB2FA
+  }
+  h2 {
+    font-size: large;
+    padding-left: 1em;
+  }
+  h3 {
+    font-size: medium;
+    padding-left: 2em;
+    font-weight: 500;
+  }
+  li {
+    font-weight: 400;
+  }
+  .details > li {
+    list-style: "> ";
+  }
+  .text > li {
+    list-style: "--> ";
+  }
+
+
+</style>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxbeier.github.io/text-spinners/spinners.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+</head>
+<body>
+
+  <span class="title">ash:<span class="emphasis">cv</span></span>
+
+  {{ basics() }}
+  
+  {{ work(work_str) }}
+
+  <span class="work">
+    <h1>employment</h1>
+    <h2>Royal Holloway Student's Union</h2>
+    <h3>2020-07-01 - present</h3>
+    <p>
+      <ul class="details">
+        <li>position: Tech and Events Supervisor</li>
+        <li>website: su.rhul.ac.uk</li>
+      </ul>
+      <ul class="text">
+        <li>Maintaining and operating the sound and lighting equipment at the Royal Holloway SU, across the two nightclub venues.</li>
+        <li>Experience and proficiency with Chamsys, JANDS Vista, Avolites, and ETC Nomad Lighting Control Software</li>
+        <li>Ensuring the equipment and 1000+ capacity venues are following health and safety requirements and venue regulation</li>
+      </ul>
+    </p>
+  </span>
+
+</body>
+</html>
