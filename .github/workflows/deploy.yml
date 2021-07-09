@@ -13,8 +13,11 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git checkout --orphan pages
+        git status
         pip3 install -r requirements.txt
         python3 script.py
         git add index.html
+        git status
         git commit -m "generated"
+        git status
         git push -f --set-upstream origin pages
