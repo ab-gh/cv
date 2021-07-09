@@ -3,7 +3,7 @@
       "theme": "flat"
     },
     "basics": {
-      "name": "Ash ~ Curriculum Vitae",
+      "name": "Ash",
       "label": "Multidisciplinary aspiring developer",
       "picture": "",
       "email": "me@ash.pm",
@@ -16,7 +16,7 @@
     "work": [{
       "company": "Royal Holloway Students Union",
       "position": "Tech and Events Supervisor",
-      "website": "https://www.su.rhul.ac.uk/",
+      "website": "www.su.rhul.ac.uk",
       "startDate": "2019-10-01",
       "summary": "Maintaining and operating the sound and lighting equipment at the Royal Holloway SU, across the two nightclub venues.",
       "highlights": [
@@ -27,7 +27,7 @@
     "volunteer": [{
       "organization": "Royal Holloway Computing Society",
       "position": "President",
-      "website": "http://cmpsc.uk/",
+      "website": "https://cmpsc.uk",
       "startDate": "2020-07-01",
       "summary": "Volunteering to help organise and run events safely, especially with COVID-19 compliance, at Royal Holloway, for the Computing Society.",
       "highlights": [
@@ -37,7 +37,7 @@
     {
       "organization": "Discord Moderator Academy",
       "position": "Community Editor",
-      "website": "http://dis.gd/dma",
+      "website": "www.discord.com/moderation",
       "startDate": "2020-08-05",
       "endDate": "2021-06-01",
       "summary": "Worked with Discord staff and over 20 contributors to proofread community-written articles for DMA, a resource for volunteer community moderators",
@@ -50,7 +50,7 @@
     {
       "organization": "Discord",
       "position": "Volunteer Community Moderator",
-      "website": "http://discord.com/",
+      "website": "www.discord.com",
       "startDate": "2018-09-12",
       "endDate": "2021-06-01",
       "summary": "Worked with various employee teams at Discord to help moderate their official communities and platforms.",
@@ -63,7 +63,7 @@
     "education": [{
       "institution": "Royal Holloway University of London",
       "area": "Physics",
-      "studyType": "Bachelor [First]",
+      "studyType": "Bachelor of Science (Currently attaning First Class Honours)",
       "startDate": "2019-09-20",
       "endDate": "2022-06-30"
     }],

@@ -1,35 +1,67 @@
-{% macro basics() -%}
-<span class="basics">
-  <h1>about me</h1>
-  <p>
-    <ul>
-      <li>alias: Ash</li>
-      <li>email: me@ash.pm</li>
-      <li>website: ash.pm</li>
-      <li>location: London, GB</li>
-    </ul>
-  </p>
-</span>
+{% macro basics(sect_dict) -%}
+      <span class="basics">
+        <h1>about me</h1>
+        <p>
+          <ul class="details">
+            <li>alias: {{sect_dict.name}}</li>
+            <li>email: {{sect_dict.email|urlize}}</li>
+            <li>website: {{sect_dict.website|urlize}}</li>
+            <li>location: {{sect_dict.location['city']}}, {{sect_dict.location['countryCode']}}</li>
+          </ul>
+        </p>
+      </span>
 {%- endmacro -%}
 
-{% macro work(str) -%}
-<span class="work">
-  {{str}}
-  <h1>employment</h1>
-  <h2>Royal Holloway Student's Union</h2>
-  <h3>2020-07-01 - present</h3>
-  <p>
-    <ul class="details">
-      <li>position: Tech and Events Supervisor</li>
-      <li>website: su.rhul.ac.uk</li>
-    </ul>
-    <ul class="text">
-      <li>Maintaining and operating the sound and lighting equipment at the Royal Holloway SU, across the two nightclub venues.</li>
-      <li>Experience and proficiency with Chamsys, JANDS Vista, Avolites, and ETC Nomad Lighting Control Software</li>
-      <li>Ensuring the equipment and 1000+ capacity venues are following health and safety requirements and venue regulation</li>
-    </ul>
-  </p>
-</span>
+{% macro sect(sect_dict) -%}
+        <h2>{{sect_dict.company}}</h2>
+        <h3>{{sect_dict.startDate}} - {{sect_dict.endDate}}</h3>
+        <p>
+          <ul class="details">
+            <li>position: {{sect_dict.position}}</li>
+            <li>website: {{sect_dict.website|urlize}}</li>
+          </ul>
+          <ul class="text">
+            {% for item in sect_dict.details %}
+              <li>{{item}}</li>{% endfor %}
+          </ul>
+        </p>
+{%- endmacro -%}
+
+{% macro edu(sect_dict) -%}
+        <h2>{{sect_dict.institution}}</h2>
+        <h3>{{sect_dict.startDate}} - {{sect_dict.endDate}}</h3>
+        <p>
+          <ul class="details">
+            <li>dicipline: {{sect_dict.area}}</li>
+          </ul>
+          <ul class="text">
+              <li>{{sect_dict.studyType}}</li>
+          </ul>
+        </p>
+{%- endmacro -%}
+
+{% macro award(sect_dict) -%}
+        <h2>{{sect_dict.title}}</h2>
+        <h3>awarded {{sect_dict.date}}</h3>
+        <p>
+          <ul class="details">
+            <li>accreditor: {{sect_dict.awarder}}</li>
+          </ul>
+          <ul class="text">
+              <li>{{sect_dict.summary}}</li>
+          </ul>
+        </p>
+{%- endmacro -%}
+
+{% macro skill(sect_dict) -%}
+        <h2>{{sect_dict.name}}</h2>
+        <p>
+          <ul class="details">
+            {%- for keyword in sect_dict.keywords -%}
+              <li>{{keyword}}</li>
+            {% endfor -%}
+          </ul>
+        </p>
 {%- endmacro -%}
 
 <!DOCTYPE html>
@@ -73,6 +105,23 @@
   .text > li {
     list-style: "--> ";
   }
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline dotted;
+  }
+
+  a:active {
+    text-decoration: underline;
+  }
 
 
 </style>
@@ -86,27 +135,43 @@
 </head>
 <body>
 
-  <span class="title">ash:<span class="emphasis">cv</span></span>
+  <span class="title">{{basics_arr.name|lower}}:<span class="emphasis">cv</span></span>
 
-  {{ basics() }}
+  {{ basics(basics_arr) }}
   
-  {{ work(work_str) }}
-
   <span class="work">
     <h1>employment</h1>
-    <h2>Royal Holloway Student's Union</h2>
-    <h3>2020-07-01 - present</h3>
-    <p>
-      <ul class="details">
-        <li>position: Tech and Events Supervisor</li>
-        <li>website: su.rhul.ac.uk</li>
-      </ul>
-      <ul class="text">
-        <li>Maintaining and operating the sound and lighting equipment at the Royal Holloway SU, across the two nightclub venues.</li>
-        <li>Experience and proficiency with Chamsys, JANDS Vista, Avolites, and ETC Nomad Lighting Control Software</li>
-        <li>Ensuring the equipment and 1000+ capacity venues are following health and safety requirements and venue regulation</li>
-      </ul>
-    </p>
+      {% for work_sec in work_arr %}
+        {{ sect(work_sec) }}
+      {% endfor %}
+  </span>
+  
+  <span class="volunteer">
+    <h1>volunteering</h1>
+      {% for volun_sec in volun_arr %}
+        {{ sect(volun_sec) }}
+      {% endfor %}
+  </span>
+
+  <span class="education">
+    <h1>education</h1>
+      {% for edu_sec in edu_arr %}
+        {{ edu(edu_sec) }}
+      {% endfor %}
+  </span>
+
+  <span class="awards">
+    <h1>awards</h1>
+      {% for award_sec in award_arr %}
+        {{ award(award_sec) }}
+      {% endfor %}
+  </span>
+
+  <span class="skills">
+    <h1>skills</h1>
+      {% for skill_sec in skill_arr %}
+        {{ skill(skill_sec) }}
+      {% endfor %}
   </span>
 
 </body>
