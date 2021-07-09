@@ -17,4 +17,4 @@ jobs:
         git checkout --orphan pages
         git add index.html
         git commit -m "generated"
-        git push --set-upstream origin pages
+        git push -f --set-upstream origin pages
