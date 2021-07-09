@@ -14,7 +14,7 @@ jobs:
         python3 script.py
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git checkout --orphan -b pages
+        git checkout --orphan pages
         git add index.html
         git commit -m "generated"
         git push --set-upstream origin pages
