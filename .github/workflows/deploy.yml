@@ -8,8 +8,9 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: pages
-    - name: Build page and deploy
+    - name: Build page and deploy to pages branch
       run: |
+        git merge main
         pip3 install -r requirements.txt
         python3 script.py
         git config user.name github-actions
