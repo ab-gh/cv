@@ -10,11 +10,11 @@ jobs:
         ref: main
     - name: Build page and deploy to pages branch
       run: |
-        pip3 install -r requirements.txt
-        python3 script.py
         git config user.name github-actions
         git config user.email github-actions@github.com
         git checkout --orphan pages
+        pip3 install -r requirements.txt
+        python3 script.py
         git add index.html
         git commit -m "generated"
         git push -f --set-upstream origin pages
