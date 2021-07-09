@@ -18,6 +18,8 @@ def main():
     awards_arr = awards_raw
     skills_arr = skills_raw
 
+    github = next(item["username"] for item in basics_arr["profiles"] if item["network"].lower() == "github")
+
     template_string = open("src/template.html", 'r').read()
     template = Template(template_string)
 
@@ -26,7 +28,8 @@ def main():
                              volun_arr=volunteer_arr,
                              edu_arr=education_arr,
                              award_arr=awards_arr,
-                             skill_arr=skills_arr)
+                             skill_arr=skills_arr,
+                             github=github)
 
     with open("index.html", 'w') as out:
         out.write(render)

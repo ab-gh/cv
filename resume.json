@@ -11,7 +11,12 @@
       "location": {
         "city": "London",
         "countryCode": "GB"
-      }
+      },
+      "profiles": [{
+        "network": "GitHub",
+        "username": "aejb",
+        "url": "http://github.com/aejb"
+      }]
     },
     "work": [{
       "company": "Royal Holloway Students Union",
