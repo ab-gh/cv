@@ -1,4 +1,4 @@
-name: Testing
+name: Deployment
 on: push
 
 jobs:
