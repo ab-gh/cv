@@ -29,6 +29,7 @@
         "Ensuring the equipment and 1000+ capacity venues are following health and safety requirements and venue regulation"
       ]
     }],
+    "volunteer": [
     {
     "organization": "Hackathons UK",
     "position": "Event Support Specialist",
@@ -37,7 +38,7 @@
     "summary": "Volunteering with Hackathons UK, a charity aimed at empowering student hackathon organisers accross the UK",
     "highlights": [
       "Working accross multiple teams to develop community and outreach"
-    ]
+        ]
     },
     {
       "organization": "Discord Moderator Academy",
