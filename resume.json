@@ -19,6 +19,17 @@
       }]
     },
     "work": [{
+      "company": "CERN Accelerator Beam Transfer Group (SY-ABT-BTP)",
+      "position": "Technical Student (iFAST WP5.3 / REX)",
+      "website": "www.su.rhul.ac.uk",
+      "startDate": "2022-08-01",
+      "summary": "Selected for a Technical Studentship at CERN under the Beam Transfer Physics group.",
+      "highlights": [
+        "Working under the iFAST Work Package 5.3 - Improvement of Resonant slow EXtraction spill quality (REX)",
+        "Studying in parallel to present findings as a thesis for a Masters in Physics by Research at RHUL"
+      ]
+    },
+    {
       "company": "Royal Holloway Students Union",
       "position": "Tech and Events Supervisor",
       "website": "www.su.rhul.ac.uk",
@@ -72,6 +83,12 @@
       "studyType": "Bachelor of Science (Currently attaining First Class Honours)",
       "startDate": "2019-09-20",
       "endDate": "2022-06-30"
+    },
+    {
+      "institution": "Royal Holloway University of London and John Adams Institute for Accelerator Science",
+      "area": "Accelerator Physics",
+      "studyType": "Master of Physics by Research",
+      "startDate": "2022-08-01"
     }],
     "awards": [{
       "title": "Harvard CS50",
