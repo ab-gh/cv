@@ -161,20 +161,20 @@
       {% endfor %}
   </span>
   
-  <span class="volunteer">
-    <h1>volunteering</h1>
-      {% for volun_sec in volun_arr %}
-        {{ sect(volun_sec) }}
-      {% endfor %}
-  </span>
-
   <span class="education">
     <h1>education</h1>
       {% for edu_sec in edu_arr %}
         {{ edu(edu_sec) }}
       {% endfor %}
   </span>
-
+      
+  <span class="volunteer">
+    <h1>volunteering</h1>
+      {% for volun_sec in volun_arr %}
+        {{ sect(volun_sec) }}
+      {% endfor %}
+  </span>
+  
   <span class="awards">
     <h1>awards</h1>
       {% for award_sec in award_arr %}
