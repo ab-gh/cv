@@ -12,6 +12,19 @@
       </span>
 {%- endmacro -%}
 
+{% macro edu(sect_dict) -%}
+        <h2>{{sect_dict.institution}}</h2>
+        <h3>{{sect_dict.startDate}} - {{sect_dict.endDate}}</h3>
+        <p>
+          <ul class="details">
+            <li>dicipline: {{sect_dict.area}}</li>
+          </ul>
+          <ul class="text">
+              <li>{{sect_dict.studyType}}</li>
+          </ul>
+        </p>
+{%- endmacro -%}
+
 {% macro sect(sect_dict) -%}
         <h2>{{sect_dict.company}}</h2>
         <h3>{{sect_dict.startDate}} - {{sect_dict.endDate}}</h3>
@@ -23,19 +36,6 @@
           <ul class="text">
             {% for item in sect_dict.details %}
               <li>{{item}}</li>{% endfor %}
-          </ul>
-        </p>
-{%- endmacro -%}
-
-{% macro edu(sect_dict) -%}
-        <h2>{{sect_dict.institution}}</h2>
-        <h3>{{sect_dict.startDate}} - {{sect_dict.endDate}}</h3>
-        <p>
-          <ul class="details">
-            <li>dicipline: {{sect_dict.area}}</li>
-          </ul>
-          <ul class="text">
-              <li>{{sect_dict.studyType}}</li>
           </ul>
         </p>
 {%- endmacro -%}
