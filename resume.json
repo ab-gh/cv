@@ -9,13 +9,13 @@
       "email": "me@ash.pm",
       "website": "https://ash.pm",
       "location": {
-        "city": "London",
-        "countryCode": "GB"
+        "city": "Geneva",
+        "countryCode": "CH"
       },
       "profiles": [{
         "network": "GitHub",
-        "username": "aejb",
-        "url": "http://github.com/aejb"
+        "username": "ab-gh",
+        "url": "http://github.com/ab-gh"
       }]
     },
     "work": [{
