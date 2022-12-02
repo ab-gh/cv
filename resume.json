@@ -21,7 +21,7 @@
     "work": [{
       "company": "CERN Accelerator Beam Transfer Group (SY-ABT-BTP)",
       "position": "Technical Student (iFAST WP5.3 / REX)",
-      "website": "sy-dep-abt.web.cern.ch/btp",
+      "website": "https://sy-dep-abt.web.cern.ch/btp",
       "startDate": "2022-08-01",
       "summary": "Selected for a Technical Studentship at CERN under the Beam Transfer Physics group.",
       "highlights": [
@@ -34,6 +34,7 @@
       "position": "Tech and Events Supervisor",
       "website": "www.su.rhul.ac.uk",
       "startDate": "2019-10-01",
+      "endDate": "2022-06-30",
       "summary": "Maintaining and operating the sound and lighting equipment at the Royal Holloway SU, across the two nightclub venues.",
       "highlights": [
         "Experience and proficiency with Chamsys, JANDS Vista, Avolites, and ETC Nomad Lighting Control Software",
@@ -80,7 +81,7 @@
     "education": [{
       "institution": "Royal Holloway University of London",
       "area": "Physics",
-      "studyType": "Bachelor of Science (Currently attaining First Class Honours)",
+      "studyType": "Bachelor of Science with First Class Honours",
       "startDate": "2019-09-20",
       "endDate": "2022-06-30"
     },
