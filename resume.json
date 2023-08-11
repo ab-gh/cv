@@ -4,13 +4,13 @@
     },
     "basics": {
       "name": "Ash",
-      "label": "Multidisciplinary aspiring developer",
+      "label": "Data Scientist and Accelerator Physicist",
       "picture": "",
       "email": "me@ash.pm",
       "website": "https://ash.pm",
       "location": {
-        "city": "Geneva",
-        "countryCode": "CH"
+        "city": "London",
+        "countryCode": "GB"
       },
       "profiles": [{
         "network": "GitHub",
@@ -20,13 +20,16 @@
     },
     "work": [{
       "company": "CERN Accelerator Beam Transfer Group (SY-ABT-BTP)",
-      "position": "Technical Student (iFAST WP5.3 / REX)",
+      "position": "Technical Student",
       "website": "https://sy-dep-abt.web.cern.ch/btp",
       "startDate": "2022-08-01",
-      "summary": "Selected for a Technical Studentship at CERN under the Beam Transfer Physics group.",
+      "endDate": "2023-07-31",
+      "summary": "Developed computational simulations for beam extraction processes for Masters degree.",
       "highlights": [
         "Working under the iFAST Work Package 5.3 - Improvement of Resonant slow EXtraction spill quality (REX)",
-        "Studying in parallel to present findings as a thesis for a Masters in Physics by Research at RHUL"
+        "Work and findings presented as thesis for Physics Masters by Research at RHUL",
+        "Implemented novel beam extraction methods at the Proton Sycnrotron",
+        "Developed simulations for these methods using Python, accelerated with GPU batch processing"
       ]
     },
     {
@@ -35,10 +38,11 @@
       "website": "www.su.rhul.ac.uk",
       "startDate": "2019-10-01",
       "endDate": "2022-06-30",
-      "summary": "Maintaining and operating the sound and lighting equipment at the Royal Holloway SU, across the two nightclub venues.",
+      "summary": "Operated and maintained sound and lighting equipment at Royal Holloway SU, across two nightclub venues.",
       "highlights": [
         "Experience and proficiency with Chamsys, JANDS Vista, Avolites, and ETC Nomad Lighting Control Software",
-        "Ensuring the equipment and 1000+ capacity venues are following health and safety requirements and venue regulation"
+        "Worked alongside student societies to support their events",
+        "Ensured the equipment and 1000+ capacity venues followed health and safety requirements and venue regulation"
       ]
     }],
     "volunteer": [
@@ -47,6 +51,7 @@
     "position": "Event Support Specialist",
     "website": "https://hackathons.org.uk",
     "startDate": "2021-03-11",
+    "endDate": "2022-06-30",
     "summary": "Volunteering with Hackathons UK, a charity aimed at empowering student hackathon organisers accross the UK",
     "highlights": [
       "Working accross multiple teams to develop community and outreach"
