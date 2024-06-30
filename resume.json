@@ -4,7 +4,7 @@
     },
     "basics": {
       "name": "Ash",
-      "label": "Data Scientist and Accelerator Physicist",
+      "label": "Data Science & Accelerator Physics, Technical Theatre",
       "picture": "",
       "email": "me@ash.pm",
       "website": "https://ash.pm",
@@ -19,6 +19,17 @@
       }]
     },
     "work": [{
+      "company": "Freelance",
+      "position": "Theatre and Nightclub Technician",
+      "startDate": "2024-02-01",
+      "summary": "Supporting theatrical and nightclub entertainment events across a number of venues in London.",
+      "highlights": [
+        "Duty Technician at The Yard Theatre, Hackney Wick",
+        "Casual Technician at The Wycombe Swan",
+        "Casual Crew with Spartan Crew".
+      ]
+    },
+    {
       "company": "CERN Accelerator Beam Transfer Group (SY-ABT-BTP)",
       "position": "Technical Student",
       "website": "https://sy-dep-abt.web.cern.ch/btp",
@@ -81,7 +92,8 @@
       "institution": "Royal Holloway University of London and John Adams Institute for Accelerator Science",
       "area": "Accelerator Physics",
       "studyType": "Master of Physics by Research",
-      "startDate": "2022-08-01"
+      "startDate": "2022-08-01",
+      "endDate": "2023-10-01"
     }],
     "awards": [{
       "title": "Harvard CS50",
