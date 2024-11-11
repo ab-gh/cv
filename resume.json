@@ -19,11 +19,21 @@
       }]
     },
     "work": [{
+      "company": "Financial",
+      "position": "Data Science and Analytics Graduate",
+      "startDate": "2024-09-23",
+      "summary": "Employed as part of a 2-year Data Science and Analytics Graduate Programme at one of the UK's largest retail and commercial banks.",
+      "highlights": [
+        "Embedded within 3 business areas as part of rotating 8-month placements"
+      ]
+    },
+    {
       "company": "Freelance",
       "position": "Theatre and Nightclub Technician",
       "website": "https://theyardtheatre.co.uk",
       "startDate": "2024-02-01",
-      "summary": "Supporting theatrical and nightclub entertainment events across a number of venues in London.",
+      "endDate": "2024-09-23",
+      "summary": "Supported theatrical and nightclub entertainment events across a number of venues in London.",
       "highlights": [
         "Duty Technician at The Yard Theatre, Hackney Wick",
         "Casual Technician at The Wycombe Swan",
@@ -40,7 +50,7 @@
       "highlights": [
         "Working under the iFAST Work Package 5.3 - Improvement of Resonant slow EXtraction spill quality (REX)",
         "Work and findings presented as thesis for Physics Masters by Research at RHUL",
-        "Implemented novel beam extraction methods at the Proton Sycnrotron",
+        "Implemented novel beam extraction methods at the Proton Synchrotron",
         "Developed simulations for these methods using Python, accelerated with GPU batch processing"
       ]
     },
@@ -64,23 +74,10 @@
     "website": "https://hackathons.org.uk",
     "startDate": "2021-03-11",
     "endDate": "2022-06-30",
-    "summary": "Volunteering with Hackathons UK, a charity aimed at empowering student hackathon organisers accross the UK",
+    "summary": "Volunteering with Hackathons UK, a charity aimed at empowering student hackathon organisers across the UK",
     "highlights": [
-      "Working accross multiple teams to develop community and outreach"
+      "Working across multiple teams to develop community and outreach"
         ]
-    },
-    {
-      "organization": "Discord Moderator Academy",
-      "position": "Community Editor",
-      "website": "www.discord.com/moderation",
-      "startDate": "2020-08-05",
-      "endDate": "2021-06-01",
-      "summary": "Worked with Discord staff and over 20 contributors to proofread community-written articles for DMA, a resource for volunteer community moderators",
-      "highlights": [
-        "Organised a large team across the full range of timezones",
-        "Liaised between staff and volnunteers",
-        "Helped to keep articles to a consistent style and tone guide"
-      ]
     }],
     "education": [{
       "institution": "Royal Holloway University of London",
@@ -99,19 +96,19 @@
     "awards": [{
       "title": "Harvard CS50",
       "date": "2020-07-16",
-      "awarder": "Harvard Univeristy",
+      "awarder": "Harvard University",
       "summary": "Completed the CS50x, with 9 problem sets and 1 final task at cs50.harvard.edu"
     },
     {
     "title": "Harvard CS50: Web Programming with Python and JavaScript",
     "date": "2020-10-01",
-    "awarder": "Harvard Univeristy",
+    "awarder": "Harvard University",
     "summary": "Completed the CS50 with Web Programming course, with 4 projects cs50.harvard.edu/web/2020"
   },
   {
     "title": "Harvard CS50: Artificial Intelligence with Python",
     "date": "2021-08-15",
-    "awarder": "Harvard Univeristy",
+    "awarder": "Harvard University",
     "summary": "Completed the CS50 with Artificial Intelligence course, with 5 projects cs50.harvard.edu/ai/2020"
   }],
     "skills": [
@@ -120,7 +117,7 @@
       "keywords": [
         "General proficiency with a range of systems and software",
         "Experience in web hosting on Linux, and using AWS services",
-        "7+ years of experience in Python",
+        "8+ years of experience in Python",
         "Additionally proficient in SQL, LaTeX, C, and Python scientific modules"
       ]
      },
@@ -151,7 +148,7 @@
       "name": "Technical Theatre",
       "keywords": [
         "Experience in theatre and music venues",
-        "Hands-on experience with rigging, maintainance, and production",
+        "Hands-on experience with rigging, maintenance, and production",
         "Proficient with a range of lighting and sound control systems"
       ]
     }],
